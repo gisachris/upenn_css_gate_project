@@ -30,9 +30,9 @@
             <span class="text-lg font-roboto">Normal operations will resume Monday, February 17, 2025</span>
         </div>
     </div>
-    <div id="contentHolder" class="relative">
-        <div id="blackTopLayer" class="absolute inset-0 w-full h-full bg-black opacity-50"></div>
-        <header class="w-full absolute top-0 font-roboto font-semibold flex flex-col">
+    <div id="contentHolder" class="relative bg-[url(/public/imgs/birdbg.jpeg)] bg-cover">
+        <div id="blackTopLayer" class="absolute inset-0 w-full h-full bg-black opacity-65"></div>
+        <header class="w-full relative top-0 font-roboto font-semibold flex flex-col">
             <div id="navTop"
                 class="border-0 border-b border-b-white grid grid-cols-3 justify-between items-center lg:grid-cols-2 px-5 text-white">
                 <div id="logoSection" class="py-5 order-2 lg:order-1 max-w-[200px]">
@@ -111,10 +111,23 @@
                 </ul>
             </nav>
         </header>
-        <main class="w-full h-[400px] bg-[url(/public/imgs/birdbg.jpeg)] bg-cover">
+        <main class="w-full min-h-[400px] text-white relative z-10">
+            <div id="heroSection" class="w-full flex my-[100px] mt-[150px] flex-col gap-y-[50px] font-bold pl-6 group">
+                <span class="font-roboto">HEALTH SCIENCES</span>
+                <p class="text-6xl font-eb max-w-[32ch]">
+                    How Penn is helping with bird flu research and disease surveillance
+                </p>
+                <span class="w-[50px] h-[6px] bg-gray-400"></span>
+                <p class="text-lg font-roboto max-w-[70ch] mb-[50px] sm:mb-0 
+                          opacity-0 transform translate-y-2 transition-all duration-500 ease-out 
+                          group-hover:opacity-100 group-hover:translate-y-0">
+                    Faculty are working on a new vaccine for the H5N1 virus, studying its transmission, and helping the
+                    state test samples from birds and mammals.
+                </p>
+            </div>
+        </main>
     </div>
 
-    </main>
 </body>
 
 </html>
