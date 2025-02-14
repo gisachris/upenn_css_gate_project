@@ -32,25 +32,29 @@
     </div>
     <div id="contentHolder" class="relative">
         <div id="blackTopLayer" class="absolute inset-0 w-full h-full bg-black opacity-50"></div>
-        <header class="w-full absolute top-0 border-0 border-b border-b-white">
+        <header class="w-full absolute top-0 border-0 border-b border-b-white font-roboto font-semibold">
             <div id="navTop" class="grid grid-cols-3 justify-between items-center lg:grid-cols-2 px-5 py-2 text-white">
-                <div id="logoSection" class="py-5 order-2">
+                <div id="logoSection" class="py-5 order-2 lg:order-1 max-w-[200px]">
                     <img src="./public/imgs/logo_light.svg" alt="" class="">
                     <img src="./public/imgs/logo_dark.svg" alt="" class="hidden">
                 </div>
-                <div id="searchSection" class="order-1">
-                    <span id="searchBar" class="block cursor-pointer">
+                <div id="searchSection"
+                    class="lg:grid lg:grid-cols-3 lg:w-fit lg:justify-center lg:justify-self-end items-center order-1 lg:order-2">
+                    <span id="searchBar" class="block cursor-pointer lg:w-fit lg:justify-self-end lg:mr-5">
                         <img src="./public/imgs/searchBar_light.png" alt="" class="w-8">
                         <img src="./public/imgs/searchBar_dark.png" alt="" class="hidden">
                     </span>
-                    <span id="resourceText" class="hidden">
-                        <span>RESOURCES</span>
-                        <span id="resourceDrops">
+                    <span id="resourceText"
+                        class="hidden text-base lg:flex lg:flex-row lg:justify-self-center lg:w-fit lg:gap-x-1">
+                        <span class="text-sm">RESOURCES</span>
+                        <span id="resourceDrops" class="w-[12px] cursor-pointer self-center h-auto">
                             <img src="./public/imgs/dropDown_light.png" alt="">
                             <img src="./public/imgs/dropDown_dark.png" alt="" class="hidden">
                         </span>
                     </span>
-                    <button class="hidden">GIVE TO PENN</button>
+                    <button class="text-[0.8rem] hidden lg:inline-block lg:w-fit bg-red-800 text-white px-8 py-4">GIVE
+                        TO
+                        PENN</button>
                 </div>
                 <div id="hamSection" class="lg:hidden order-3 flex flex-col items-end">
                     <span class="w-fit cursor-pointer">
