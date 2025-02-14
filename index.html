@@ -33,14 +33,14 @@
     <div id="contentHolder" class="relative">
         <div id="blackTopLayer" class="absolute inset-0 w-full h-full bg-black opacity-50"></div>
         <header class="w-full absolute top-0 border-0 border-b border-b-white">
-            <div id="navTop" class="grid grid-cols-3 justify-between items-center lg:grid-cols-2 px-3 py-2 text-white">
-                <div id="logoSection" class="order-2">
-                    <img src="./public/imgs/logo_light.svg" alt="">
+            <div id="navTop" class="grid grid-cols-3 justify-between items-center lg:grid-cols-2 px-5 py-2 text-white">
+                <div id="logoSection" class="py-5 order-2">
+                    <img src="./public/imgs/logo_light.svg" alt="" class="">
                     <img src="./public/imgs/logo_dark.svg" alt="" class="hidden">
                 </div>
                 <div id="searchSection" class="order-1">
-                    <span id="searchBar">
-                        <img src="./public/imgs/searchBar_light.png" alt="">
+                    <span id="searchBar" class="block cursor-pointer">
+                        <img src="./public/imgs/searchBar_light.png" alt="" class="w-8">
                         <img src="./public/imgs/searchBar_dark.png" alt="" class="hidden">
                     </span>
                     <span id="resourceText" class="hidden">
@@ -52,9 +52,11 @@
                     </span>
                     <button class="hidden">GIVE TO PENN</button>
                 </div>
-                <div id="hamSection" class="lg:hidden order-3">
-                    <img src="./public/imgs/ham_light.png" alt="">
-                    <img src="./public/imgs/ham_dark.png" alt="" class="hidden">
+                <div id="hamSection" class="lg:hidden order-3 flex flex-col items-end">
+                    <span class="w-fit cursor-pointer">
+                        <img src="./public/imgs/ham_light.png" alt="" class="w-6">
+                        <img src="./public/imgs/ham_dark.png" alt="" class="hidden">
+                    </span>
                 </div>
             </div>
         </header>
