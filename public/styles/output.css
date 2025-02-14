@@ -523,8 +523,20 @@
   .collapse {
     visibility: collapse;
   }
+  .absolute {
+    position: absolute;
+  }
   .relative {
     position: relative;
+  }
+  .inset-0 {
+    inset: calc(var(--spacing) * 0);
+  }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .top-\[200px\] {
+    top: 200px;
   }
   .m-0 {
     margin: calc(var(--spacing) * 0);
@@ -550,6 +562,9 @@
   .flex {
     display: flex;
   }
+  .hidden {
+    display: none;
+  }
   .inline-flex {
     display: inline-flex;
   }
@@ -562,11 +577,17 @@
   .h-\[100\%\] {
     height: 100%;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[200px\] {
     height: 200px;
   }
   .h-\[250px\] {
     height: 250px;
+  }
+  .h-\[400px\] {
+    height: 400px;
   }
   .h-\[minmax\(\)\] {
     height: minmax();
@@ -610,6 +631,12 @@
   .flex-col {
     flex-direction: column;
   }
+  .flex-row {
+    flex-direction: row;
+  }
+  .justify-between {
+    justify-content: space-between;
+  }
   .justify-center {
     justify-content: center;
   }
@@ -621,6 +648,12 @@
     border-style: var(--tw-border-style);
     border-width: 2px;
   }
+  .border-amber-400 {
+    border-color: var(--color-amber-400);
+  }
+  .border-amber-500 {
+    border-color: var(--color-amber-500);
+  }
   .border-gray-500 {
     border-color: var(--color-gray-500);
   }
@@ -630,11 +663,53 @@
   .bg-\[\#011f5b\] {
     background-color: #011f5b;
   }
+  .bg-black {
+    background-color: var(--color-black);
+  }
+  .bg-gray-900 {
+    background-color: var(--color-gray-900);
+  }
+  .bg-\[url\(\)\] {
+    background-image: url();
+  }
+  .bg-\[url\(\/public\)\] {
+    background-image: url(/public);
+  }
+  .bg-\[url\(\/public\/imgs\/\.jpg\)\] {
+    background-image: url(/public/imgs/.jpg);
+  }
+  .bg-\[url\(\/public\/imgs\/bif\.jpg\)\] {
+    background-image: url(/public/imgs/bif.jpg);
+  }
+  .bg-\[url\(\/public\/imgs\/bird\.jpg\)\] {
+    background-image: url(/public/imgs/bird.jpg);
+  }
+  .bg-\[url\(\/public\/imgs\/birdbg\.jpeg\)\] {
+    background-image: url(/public/imgs/birdbg.jpeg);
+  }
+  .bg-\[url\(\/public\/imgs\/birdbg\.jpg\)\] {
+    background-image: url(/public/imgs/birdbg.jpg);
+  }
+  .bg-\[url\(\/public\/imgs\/hero\.jpg\)\] {
+    background-image: url(/public/imgs/hero.jpg);
+  }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
   .p-0 {
     padding: calc(var(--spacing) * 0);
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
+  .py-2 {
+    padding-block: calc(var(--spacing) * 2);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
@@ -676,6 +751,9 @@
     font-size: var(--text-lg);
     line-height: var(--tw-leading, var(--text-lg--line-height));
   }
+  .text-\[1\.7rem\] {
+    font-size: 1.7rem;
+  }
   .text-\[1\.55rem\] {
     font-size: 1.55rem;
   }
@@ -688,9 +766,6 @@
   .text-\[1\.75rem\] {
     font-size: 1.75rem;
   }
-  .text-\[1\.7rem\] {
-    font-size: 1.7rem;
-  }
   .text-\[1rem\] {
     font-size: 1rem;
   }
@@ -702,6 +777,21 @@
   }
   .underline {
     text-decoration-line: underline;
+  }
+  .opacity-5 {
+    opacity: 5%;
+  }
+  .opacity-10 {
+    opacity: 10%;
+  }
+  .opacity-15 {
+    opacity: 15%;
+  }
+  .opacity-25 {
+    opacity: 25%;
+  }
+  .opacity-50 {
+    opacity: 50%;
   }
   .outline {
     outline-style: var(--tw-outline-style);
