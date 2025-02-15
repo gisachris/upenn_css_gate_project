@@ -1230,6 +1230,9 @@
   .bg-\[url\(\/public\/imgs\/blueBg\.png\)\] {
     background-image: url(/public/imgs/blueBg.png);
   }
+  .bg-\[url\(\/public\/imgs\/footerBg\.png\)\] {
+    background-image: url(/public/imgs/footerBg.png);
+  }
   .bg-\[url\(\/public\/imgs\/innovationBg\.jpeg\)\] {
     background-image: url(/public/imgs/innovationBg.jpeg);
   }
