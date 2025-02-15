@@ -568,6 +568,9 @@
   .mx-20 {
     margin-inline: calc(var(--spacing) * 20);
   }
+  .mx-auto {
+    margin-inline: auto;
+  }
   .my-\[100px\] {
     margin-block: 100px;
   }
@@ -585,6 +588,12 @@
   }
   .mt-15 {
     margin-top: calc(var(--spacing) * 15);
+  }
+  .mt-16 {
+    margin-top: calc(var(--spacing) * 16);
+  }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
   }
   .mt-\[20px\] {
     margin-top: 20px;
@@ -646,6 +655,9 @@
   .table {
     display: table;
   }
+  .h-\[3px\] {
+    height: 3px;
+  }
   .h-\[4px\] {
     height: 4px;
   }
@@ -657,6 +669,9 @@
   }
   .h-\[20\%\] {
     height: 20%;
+  }
+  .h-\[700px\] {
+    height: 700px;
   }
   .h-\[70px\] {
     height: 70px;
@@ -961,6 +976,9 @@
   .bg-\[url\(\/public\/imgs\/birdbg\.jpeg\)\] {
     background-image: url(/public/imgs/birdbg.jpeg);
   }
+  .bg-\[url\(\/public\/imgs\/blueBg\.png\)\] {
+    background-image: url(/public/imgs/blueBg.png);
+  }
   .bg-\[url\(\/public\/imgs\/innovationBg\.jpeg\)\] {
     background-image: url(/public/imgs/innovationBg.jpeg);
   }
@@ -1059,6 +1077,9 @@
   .py-12 {
     padding-block: calc(var(--spacing) * 12);
   }
+  .py-20 {
+    padding-block: calc(var(--spacing) * 20);
+  }
   .py-\[100px\] {
     padding-block: 100px;
   }
@@ -1115,6 +1136,10 @@
   .text-4xl {
     font-size: var(--text-4xl);
     line-height: var(--tw-leading, var(--text-4xl--line-height));
+  }
+  .text-5xl {
+    font-size: var(--text-5xl);
+    line-height: var(--tw-leading, var(--text-5xl--line-height));
   }
   .text-6xl {
     font-size: var(--text-6xl);
